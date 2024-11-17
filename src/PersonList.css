@@ -1,0 +1,46 @@
+
+.person-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .person-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #5add95;
+  }
+  
+  .profile-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .person-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .full-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .person-details div {
+    font-size: 14px;
+  }
+  
+  .person-details strong {
+    color: #333;
+  }
+  
